@@ -14,6 +14,21 @@ h1::after {
   animation: blink 1s infinite;
 }
 
+.social-icons {
+  max-width: 200px;
+  font-size: 20px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons h2 a {
+  color: whitesmoke;
+  transition: color .2s;
+}
+.social-icons h2 a:hover {
+  color: rgb(161, 161, 161);
+}
+
 @keyframes blink {
   0%, 
   100% {
