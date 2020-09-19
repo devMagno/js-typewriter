@@ -6,3 +6,20 @@ body {
   max-width: 500px;
   margin: 50px auto;
 }
+
+h1::after {
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0
+  }
+}
